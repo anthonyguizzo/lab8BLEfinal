@@ -110,7 +110,7 @@ int main(void)
   MX_USB_OTG_FS_PCD_Init();
   MX_BlueNRG_MS_Init();
   /* USER CODE BEGIN 2 */
-int i = 0;
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -121,7 +121,6 @@ int i = 0;
 
   MX_BlueNRG_MS_Process();
     /* USER CODE BEGIN 3 */
-i++;
   }
   /* USER CODE END 3 */
 }
